@@ -2,7 +2,7 @@
 //  UILabel+BY.m
 //  NewProject_OC
 //
-//  Created by Luban on 2022/5/6.
+//  Created by Bri.Yin on 2022/5/6.
 //
 
 #import "UILabel+BY.h"

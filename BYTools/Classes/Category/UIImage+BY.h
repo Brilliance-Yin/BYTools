@@ -2,7 +2,7 @@
 //  UIImage+BY.h
 //  NewProject_OC
 //
-//  Created by Luban on 2022/5/7.
+//  Created by Bri.Yin on 2022/5/7.
 //
 
 #import <UIKit/UIKit.h>
