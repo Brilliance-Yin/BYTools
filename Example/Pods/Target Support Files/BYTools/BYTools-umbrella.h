@@ -10,11 +10,12 @@
 #endif
 #endif
 
-#import "Constants.h"
+#import "BYTools.h"
 #import "UIImage+BY.h"
 #import "UILabel+BY.h"
 #import "UITextView+BY.h"
 #import "UIView+BY.h"
+#import "Constants.h"
 
 FOUNDATION_EXPORT double BYToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char BYToolsVersionString[];

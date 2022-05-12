@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39EDC1BD874644CD2EECAF764E9C0CA4 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFECD51B8877B5B60983BD08406BF7D /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EDD71D449A21AF3CC8D4B0D679B350F /* BYTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A27265E9759FF1DBA814D140EE2B8B /* BYTools-dummy.m */; };
+		3C1914B8D8B7C56B9E615E8384A23B78 /* UITextView+BY.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D247C10B58654700022E9A008FCA142 /* UITextView+BY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A320D0215ED33BB0D2386EAB395F222 /* BYTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5F09ED8CACE748964E0884A47E881D /* BYTools-dummy.m */; };
 		6C8A7832A643746ED888BF7BB7B98F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6EFD10042FE7E356683C670447F64500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E458E593E694CE84AEB2E6661E404CC /* UIView+BY.h in Headers */ = {isa = PBXBuildFile; fileRef = CB0C02620842EB085162858BC280C346 /* UIView+BY.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70A5C3CC53BD27FF7C351D1D02800D02 /* Pods-BYTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 926C0382CDA6828C78D34C7A6601BB68 /* Pods-BYTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8FDF756F9DB2B8F5C67034E846B6411 /* BYTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A641D08B02809228ED43BF4A7419CCD /* BYTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2BAC62676B16107E4F90F0A735EA367 /* BYTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B33D3C683D95895BB4CE52ABF938396F /* BYTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B5298401BCA09C22EAA57FC9EE3C7C /* UIImage+BY.m in Sources */ = {isa = PBXBuildFile; fileRef = 613567EDB71D921081B8C6B8606B98A0 /* UIImage+BY.m */; };
+		C3B040A85140048F98D36B5A78F47D03 /* BYTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D63CF6D1A63DAD60BF7F93521213E98 /* BYTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49B3220F1C56EAF1F40E1FB054A814F /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 845BDF729538C3C061E0C6BC4AD2F342 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55BAD44CF414F1CD699C0F144B99CB3 /* UIView+BY.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B97A3AFEAC639E02212E79271A949 /* UIView+BY.m */; };
+		C946BE787E7A692AFF3E28D3B514AF0A /* UIImage+BY.h in Headers */ = {isa = PBXBuildFile; fileRef = 680B389DB213272825EE1B0E913C6CB8 /* UIImage+BY.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB5BF29F8FCEDE419871CE2BE441B848 /* Pods-BYTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36393D786AE193C7F773B5E9D1EE54B9 /* Pods-BYTools_Tests-dummy.m */; };
-		ED29B0E4282CEA6E008E6578 /* BYTools.h in Headers */ = {isa = PBXBuildFile; fileRef = ED29B0E3282CEA6E008E6578 /* BYTools.h */; };
+		E6FBF274824A7F316083BA0116BFC85A /* UITextView+BY.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D44E201C9F9F35F71A69DDFDCF008A6 /* UITextView+BY.m */; };
+		E964B352E5393AD51148CBE45FC08F67 /* UILabel+BY.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5AE1FE5066B9E6985E3AFE8D983205 /* UILabel+BY.m */; };
+		E98349CDA3986E54B205C48B78B0047D /* UILabel+BY.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E04B967A5A225E70861AF6D581B83A4 /* UILabel+BY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBE1F6D86C39B82E6D3B56D173A12CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D06137C46A7344C52D6EF592E36F437 /* PBXContainerItemProxy */ = {
+		92CE9B87D059C15ADB4F9CEF6F1A5690 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,38 +37,46 @@
 
 /* Begin PBXFileReference section */
 		0554F3754F7188C2C8AE8FA6E406C232 /* Pods-BYTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BYTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		0A4745E86C48E33EE3C3F4C7480C5C53 /* BYTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BYTools.debug.xcconfig; sourceTree = "<group>"; };
+		0D44E201C9F9F35F71A69DDFDCF008A6 /* UITextView+BY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BY.m"; sourceTree = "<group>"; };
 		15193D9FF5BD458066E898DDDBE008F0 /* Pods-BYTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BYTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		29267E9777BE059139E03892EEB1FF02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		187B97A3AFEAC639E02212E79271A949 /* UIView+BY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BY.m"; sourceTree = "<group>"; };
+		1D63CF6D1A63DAD60BF7F93521213E98 /* BYTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BYTools-umbrella.h"; sourceTree = "<group>"; };
+		1E04B967A5A225E70861AF6D581B83A4 /* UILabel+BY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+BY.h"; sourceTree = "<group>"; };
 		36393D786AE193C7F773B5E9D1EE54B9 /* Pods-BYTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BYTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		3A641D08B02809228ED43BF4A7419CCD /* BYTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BYTools-umbrella.h"; sourceTree = "<group>"; };
+		38D45236F8D62A157892173B62BF07CC /* BYTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BYTools.release.xcconfig; sourceTree = "<group>"; };
 		4484B48E4D0B6D72E8BD3841AA8FECCA /* Pods-BYTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BYTools_Tests"; path = Pods_BYTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		545546BE5481A043511BB4FC8EE21292 /* Pods-BYTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BYTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5BFECD51B8877B5B60983BD08406BF7D /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = BYTools/Classes/Constants.h; sourceTree = "<group>"; };
-		676EF6D91418122FD46A63BFBA6F7A40 /* BYTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BYTools-Info.plist"; sourceTree = "<group>"; };
+		613567EDB71D921081B8C6B8606B98A0 /* UIImage+BY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BY.m"; sourceTree = "<group>"; };
+		680B389DB213272825EE1B0E913C6CB8 /* UIImage+BY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BY.h"; sourceTree = "<group>"; };
+		6A5AE1FE5066B9E6985E3AFE8D983205 /* UILabel+BY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BY.m"; sourceTree = "<group>"; };
 		6FD69CFBDCD876521F291D20406A01CE /* Pods-BYTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BYTools_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C759AE38062D704A7153FD2853F2759 /* BYTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BYTools-prefix.pch"; sourceTree = "<group>"; };
-		86B418E292D2BF23262C30DAB02A37DF /* BYTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BYTools.debug.xcconfig; sourceTree = "<group>"; };
+		73B0E84BD0A3DDE4B5EF47FAB3987A87 /* BYTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BYTools-Info.plist"; sourceTree = "<group>"; };
+		845BDF729538C3C061E0C6BC4AD2F342 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = BYTools/Classes/Constants.h; sourceTree = "<group>"; };
+		8DC043F45411166FB3E67F383F548FBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		926C0382CDA6828C78D34C7A6601BB68 /* Pods-BYTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BYTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		92A5804DF905DFF1F132F218EE611B58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D247C10B58654700022E9A008FCA142 /* UITextView+BY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+BY.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5776A55ED535389E37918320DD9A3D0 /* Pods-BYTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BYTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA284DA44D0B502BA50440C40A085A96 /* Pods-BYTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BYTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B6A27265E9759FF1DBA814D140EE2B8B /* BYTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BYTools-dummy.m"; sourceTree = "<group>"; };
+		AC071E41F85C24B37C677FB794C641DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B33D3C683D95895BB4CE52ABF938396F /* BYTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BYTools.h; path = BYTools/Classes/BYTools.h; sourceTree = "<group>"; };
+		B43ED262EE9DFDD86D61ED0A7749440D /* BYTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BYTools.modulemap; sourceTree = "<group>"; };
 		BDBA3FE51F80C46202F56C46949544FE /* BYTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BYTools; path = BYTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E53F70A9131FAC06F4EB4F28CE5C8432 /* BYTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BYTools.release.xcconfig; sourceTree = "<group>"; };
-		E67B7C9AF161F5DF536F305921D1D108 /* BYTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BYTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB0C02620842EB085162858BC280C346 /* UIView+BY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+BY.h"; sourceTree = "<group>"; };
+		DD6A9B03C2FBCD05924C856868D8A962 /* BYTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BYTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA286E076EEB3755D1117E02E3336167 /* BYTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BYTools-prefix.pch"; sourceTree = "<group>"; };
 		EB29DFCCE29C3167EDC9A48080BBCD8C /* Pods-BYTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BYTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		ED29B0E3282CEA6E008E6578 /* BYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BYTools.h; path = BYTools/Classes/BYTools.h; sourceTree = "<group>"; };
-		F095CE6D6082E727CAE555E1720F6ADD /* BYTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BYTools.modulemap; sourceTree = "<group>"; };
+		FF5F09ED8CACE748964E0884A47E881D /* BYTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BYTools-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56706568D8F7E45A29DD8D27ECC8EBF4 /* Frameworks */ = {
+		8D1BF8896E01C2ECA9CB8652245093A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EFD10042FE7E356683C670447F64500 /* Foundation.framework in Frameworks */,
+				EBE1F6D86C39B82E6D3B56D173A12CFA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +91,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0026592860224F8C25C8787A221F5E28 /* BYTools */ = {
+			isa = PBXGroup;
+			children = (
+				B33D3C683D95895BB4CE52ABF938396F /* BYTools.h */,
+				845BDF729538C3C061E0C6BC4AD2F342 /* Constants.h */,
+				636CF86BDA2AE9576F1D19ACAC197BF7 /* Category */,
+				CB22E58A058FEB15B5D9AA506625B33D /* Pod */,
+				C6A0A1517304ED2EDE683F5FBAADF859 /* Support Files */,
+			);
+			name = BYTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		095C4D209224C95B1E5E25B6B63322D0 /* Pods-BYTools_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,34 +121,20 @@
 			path = "Target Support Files/Pods-BYTools_Tests";
 			sourceTree = "<group>";
 		};
+		0DE39C952B5CF59A1B43A10AEF50CC64 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0026592860224F8C25C8787A221F5E28 /* BYTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		18D64721A972F45A675C383A4D283C1B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				095C4D209224C95B1E5E25B6B63322D0 /* Pods-BYTools_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2F301B986C28EC93AFECBC1CF81797CE /* BYTools */ = {
-			isa = PBXGroup;
-			children = (
-				ED29B0E3282CEA6E008E6578 /* BYTools.h */,
-				5BFECD51B8877B5B60983BD08406BF7D /* Constants.h */,
-				3544B9AA8AC477CDDA71410603763D08 /* Pod */,
-				FCBAA3E832BB3F168897CD591D776F29 /* Support Files */,
-			);
-			name = BYTools;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3544B9AA8AC477CDDA71410603763D08 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E67B7C9AF161F5DF536F305921D1D108 /* BYTools.podspec */,
-				92A5804DF905DFF1F132F218EE611B58 /* LICENSE */,
-				29267E9777BE059139E03892EEB1FF02 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5031A93300F11205BF2BA399B2FE20DE /* Products */ = {
@@ -139,19 +154,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		82BF3D7EC94BE65491FBA1A021021084 /* Development Pods */ = {
+		636CF86BDA2AE9576F1D19ACAC197BF7 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				2F301B986C28EC93AFECBC1CF81797CE /* BYTools */,
+				680B389DB213272825EE1B0E913C6CB8 /* UIImage+BY.h */,
+				613567EDB71D921081B8C6B8606B98A0 /* UIImage+BY.m */,
+				1E04B967A5A225E70861AF6D581B83A4 /* UILabel+BY.h */,
+				6A5AE1FE5066B9E6985E3AFE8D983205 /* UILabel+BY.m */,
+				9D247C10B58654700022E9A008FCA142 /* UITextView+BY.h */,
+				0D44E201C9F9F35F71A69DDFDCF008A6 /* UITextView+BY.m */,
+				CB0C02620842EB085162858BC280C346 /* UIView+BY.h */,
+				187B97A3AFEAC639E02212E79271A949 /* UIView+BY.m */,
 			);
-			name = "Development Pods";
+			name = Category;
+			path = BYTools/Classes/Category;
+			sourceTree = "<group>";
+		};
+		C6A0A1517304ED2EDE683F5FBAADF859 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43ED262EE9DFDD86D61ED0A7749440D /* BYTools.modulemap */,
+				FF5F09ED8CACE748964E0884A47E881D /* BYTools-dummy.m */,
+				73B0E84BD0A3DDE4B5EF47FAB3987A87 /* BYTools-Info.plist */,
+				EA286E076EEB3755D1117E02E3336167 /* BYTools-prefix.pch */,
+				1D63CF6D1A63DAD60BF7F93521213E98 /* BYTools-umbrella.h */,
+				0A4745E86C48E33EE3C3F4C7480C5C53 /* BYTools.debug.xcconfig */,
+				38D45236F8D62A157892173B62BF07CC /* BYTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BYTools";
+			sourceTree = "<group>";
+		};
+		CB22E58A058FEB15B5D9AA506625B33D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD6A9B03C2FBCD05924C856868D8A962 /* BYTools.podspec */,
+				8DC043F45411166FB3E67F383F548FBB /* LICENSE */,
+				AC071E41F85C24B37C677FB794C641DB /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				82BF3D7EC94BE65491FBA1A021021084 /* Development Pods */,
+				0DE39C952B5CF59A1B43A10AEF50CC64 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5031A93300F11205BF2BA399B2FE20DE /* Products */,
 				18D64721A972F45A675C383A4D283C1B /* Targets Support Files */,
@@ -166,21 +214,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FCBAA3E832BB3F168897CD591D776F29 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F095CE6D6082E727CAE555E1720F6ADD /* BYTools.modulemap */,
-				B6A27265E9759FF1DBA814D140EE2B8B /* BYTools-dummy.m */,
-				676EF6D91418122FD46A63BFBA6F7A40 /* BYTools-Info.plist */,
-				7C759AE38062D704A7153FD2853F2759 /* BYTools-prefix.pch */,
-				3A641D08B02809228ED43BF4A7419CCD /* BYTools-umbrella.h */,
-				86B418E292D2BF23262C30DAB02A37DF /* BYTools.debug.xcconfig */,
-				E53F70A9131FAC06F4EB4F28CE5C8432 /* BYTools.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BYTools";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -192,13 +225,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF365723ADCDC7D929AB2A09D1D59C40 /* Headers */ = {
+		B0A3833C896C9F167B09E82CDF637F6F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8FDF756F9DB2B8F5C67034E846B6411 /* BYTools-umbrella.h in Headers */,
-				39EDC1BD874644CD2EECAF764E9C0CA4 /* Constants.h in Headers */,
-				ED29B0E4282CEA6E008E6578 /* BYTools.h in Headers */,
+				A2BAC62676B16107E4F90F0A735EA367 /* BYTools.h in Headers */,
+				C3B040A85140048F98D36B5A78F47D03 /* BYTools-umbrella.h in Headers */,
+				C49B3220F1C56EAF1F40E1FB054A814F /* Constants.h in Headers */,
+				C946BE787E7A692AFF3E28D3B514AF0A /* UIImage+BY.h in Headers */,
+				E98349CDA3986E54B205C48B78B0047D /* UILabel+BY.h in Headers */,
+				3C1914B8D8B7C56B9E615E8384A23B78 /* UITextView+BY.h in Headers */,
+				6E458E593E694CE84AEB2E6661E404CC /* UIView+BY.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +254,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6B116E51B2DEBEF234A68EB34FD7992E /* PBXTargetDependency */,
+				731563CB3F4F47FDF2EC018E1D48805C /* PBXTargetDependency */,
 			);
 			name = "Pods-BYTools_Tests";
 			productName = Pods_BYTools_Tests;
@@ -226,12 +263,12 @@
 		};
 		976EB6CDFF964629F6F4A5ED15C495F3 /* BYTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86258719A773B85DF50C88EBA5F7F6F9 /* Build configuration list for PBXNativeTarget "BYTools" */;
+			buildConfigurationList = B99A4BE8076EAF622C7BD9DCA4394D73 /* Build configuration list for PBXNativeTarget "BYTools" */;
 			buildPhases = (
-				CF365723ADCDC7D929AB2A09D1D59C40 /* Headers */,
-				C4B69B396DC5B097239C919458E12920 /* Sources */,
-				56706568D8F7E45A29DD8D27ECC8EBF4 /* Frameworks */,
-				928D9777CC9D8B6E20E4CCDCFCC1D58F /* Resources */,
+				B0A3833C896C9F167B09E82CDF637F6F /* Headers */,
+				D80323C9779DF0F170ABE11D8571CBB5 /* Sources */,
+				8D1BF8896E01C2ECA9CB8652245093A0 /* Frameworks */,
+				D983824F4642903CF6D4A0FA01B94CC3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -278,7 +315,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		928D9777CC9D8B6E20E4CCDCFCC1D58F /* Resources */ = {
+		D983824F4642903CF6D4A0FA01B94CC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,14 +325,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4B69B396DC5B097239C919458E12920 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EDD71D449A21AF3CC8D4B0D679B350F /* BYTools-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D4B1FA84DD251A658A27FD7336D93651 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,48 +333,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D80323C9779DF0F170ABE11D8571CBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A320D0215ED33BB0D2386EAB395F222 /* BYTools-dummy.m in Sources */,
+				C2B5298401BCA09C22EAA57FC9EE3C7C /* UIImage+BY.m in Sources */,
+				E964B352E5393AD51148CBE45FC08F67 /* UILabel+BY.m in Sources */,
+				E6FBF274824A7F316083BA0116BFC85A /* UITextView+BY.m in Sources */,
+				C55BAD44CF414F1CD699C0F144B99CB3 /* UIView+BY.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B116E51B2DEBEF234A68EB34FD7992E /* PBXTargetDependency */ = {
+		731563CB3F4F47FDF2EC018E1D48805C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BYTools;
 			target = 976EB6CDFF964629F6F4A5ED15C495F3 /* BYTools */;
-			targetProxy = 4D06137C46A7344C52D6EF592E36F437 /* PBXContainerItemProxy */;
+			targetProxy = 92CE9B87D059C15ADB4F9CEF6F1A5690 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2640195049B07D4F89C3618A7BC29D35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86B418E292D2BF23262C30DAB02A37DF /* BYTools.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BYTools/BYTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BYTools/BYTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BYTools/BYTools.modulemap";
-				PRODUCT_MODULE_NAME = BYTools;
-				PRODUCT_NAME = BYTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,40 +412,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		50C589A5FD7C9E71F4061BFD8239B26C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E53F70A9131FAC06F4EB4F28CE5C8432 /* BYTools.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BYTools/BYTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BYTools/BYTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BYTools/BYTools.modulemap";
-				PRODUCT_MODULE_NAME = BYTools;
-				PRODUCT_NAME = BYTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -537,6 +518,67 @@
 			};
 			name = Debug;
 		};
+		A3F766D4FC31263410E49AEB51CEFF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D45236F8D62A157892173B62BF07CC /* BYTools.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BYTools/BYTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BYTools/BYTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BYTools/BYTools.modulemap";
+				PRODUCT_MODULE_NAME = BYTools;
+				PRODUCT_NAME = BYTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACF1B2CD56E5E74506078DF054922F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4745E86C48E33EE3C3F4C7480C5C53 /* BYTools.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BYTools/BYTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BYTools/BYTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BYTools/BYTools.modulemap";
+				PRODUCT_MODULE_NAME = BYTools;
+				PRODUCT_NAME = BYTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CAE6CD6A50EC83270636836E62AC2A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5776A55ED535389E37918320DD9A3D0 /* Pods-BYTools_Tests.debug.xcconfig */;
@@ -590,11 +632,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86258719A773B85DF50C88EBA5F7F6F9 /* Build configuration list for PBXNativeTarget "BYTools" */ = {
+		B99A4BE8076EAF622C7BD9DCA4394D73 /* Build configuration list for PBXNativeTarget "BYTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2640195049B07D4F89C3618A7BC29D35 /* Debug */,
-				50C589A5FD7C9E71F4061BFD8239B26C /* Release */,
+				ACF1B2CD56E5E74506078DF054922F12 /* Debug */,
+				A3F766D4FC31263410E49AEB51CEFF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
