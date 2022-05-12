@@ -1,0 +1,16 @@
+PODS:
+  - BYTools (0.1.0)
+
+DEPENDENCIES:
+  - BYTools (from `../`)
+
+EXTERNAL SOURCES:
+  BYTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BYTools: b673529097b782b6c4294acab2110cfeb34193ad
+
+PODFILE CHECKSUM: d21152ce54fd668c16c1baf742a9deb86458f0a9
+
+COCOAPODS: 1.11.3
