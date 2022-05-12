@@ -24,8 +24,3 @@ pod 'BYTools'
 ## Author
 
 Brilliance-Yin, 1062051470@qq.com
-
-## License
-
-BYTools is available under the MIT license. See the LICENSE file for more info.
->>>>>>> master
