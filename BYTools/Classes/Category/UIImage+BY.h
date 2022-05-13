@@ -34,7 +34,7 @@ static const void *failBlockKey = &failBlockKey;
 - (UIImage *)allowMaxImg_thum:(BOOL)thumbnail;
 
 /** 图片要求的最大长宽 */
-- (CGSize *)resetMaxWH:(CGFloat)WH;
+- (CGSize)resetMaxWH:(CGFloat)WH;
 
 /** 按比例重设图片大小 */
 - (UIImage *)resizeRate:(CGFloat)rate;
@@ -43,10 +43,13 @@ static const void *failBlockKey = &failBlockKey;
 - (UIImage *)resizeRate:(CGFloat)rate quality:(CGInterpolationQuality)quality;
 
 /** save to album */
-- (void)savedToAlbumSuccessBlock:(void (^)())completeBlock failBlock:(void (^)())failBlock;
+- (void)savedToAlbumSuccessBlock:(void (^)(void))completeBlock failBlock:(void (^)(void))failBlock;
 
-/** save to the specified name album */
-- (void)savedToAlbumWithName:(NSString *)albumName successBlock:(void (^)())completeBlock failBlock:(void (^)())failBlock;
+/** save to the specified name album
+ *  @param completeBlock success block
+ *  @param failBlock failure block
+ */
+- (void)savedToAlbumWithName:(NSString *)albumName successBlock:(void (^)(void))completeBlock failBlock:(void (^)(void))failBlock;
 
 /** watermark orientation */
 typedef NS_ENUM(NSInteger, ImageWaterDirect) {
@@ -55,7 +58,7 @@ typedef NS_ENUM(NSInteger, ImageWaterDirect) {
     ImageWaterDirectBottomLeft,
     ImageWaterDirectBottomRight,
     ImageWaterDirectCenter
-}
+};
 
 /** Text水印 */
 - (UIImage *)waterWithText:(NSString *)text direction:(ImageWaterDirect)direction fontColor:(UIColor *)fontColor fontPoint:(CGFloat)fontPoint marginXY:(CGPoint)marginXY;
